@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 Assignment</title>
+    <style>
+        *{
+            background-color: rgb(77, 134, 239);
+            color: aliceblue;
+            padding: 2px;
+            margin: 5px;
+            /* align-items: center; */
+        }
+        #h1{
+            text-align: center;
+        }
+
+
+        input{
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+        }
+        #table{
+            border-radius: 7px;
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #img{   
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        
+        }
+    </style>
+</head>
+<body>
+    <img id="img" src="images/day1_1.png" alt="logo">
+    <!-- <h1>hello</h1> -->
+    <h1 id="h1">Course Enrollment Form</h1>
+    <table  id="table"> 
+        <form action="#">
+            <tr>
+                <td align="right"><label for="first">First Name:</label></td>
+                <td align="left"><input type="text" id="first"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="last">Last Name:</label></td>
+                <td align="left"><input type="text" id="last"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="gender">Gender:</label></td>
+                <td align="left"><input type="radio">M &nbsp;&nbsp;&nbsp;<input type="radio" >F</td>
+            </tr>
+            <tr>
+                <td align="right"><label for="uname">Username:</label></td>
+                <td align="left"><input type="email" id="uname"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="hobbies">Hobbies:</label></td>
+                <td align="left"><input type="checkbox" id="hobbies">Travelling &nbsp;<input type="checkbox" id="hobbies">Playing cricket</td>
+            </tr>
+            <tr>
+                <td align="right"><label for="uploadpic">Upload pic</label></td>
+                <td align="left"><input type="file" id="uploadpic"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="l1address">Street Adress Line 1:</label></td>
+                <td align="left"><input type="text" id="l1address"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="l2address">Street Adress Line 2:</label></td>
+                <td align="left"><input type="text" id="l2address"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="city">City:</label></td>
+                <td align="left"><select id="city">
+                    <option value="select">Select City</option>
+                    <option value="jab">Jabalpur</option>
+                    <option value="mum">Mumbai</option>
+                    <option value="pune">Pune</option>
+                    <option value="indore">Indore</option>
+                    <option value="bhopal">Bhopal</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="state">State:</label></td>
+                <td align="left"><select id="state">
+                    <option value="select">Select State</option>
+                    <option value="up">Uttar Pradesh</option>
+                    <option value="mp">Madhya Pradesh</option>
+                    <option value="maha">Maharashtra</option>
+                    <option value="ker">Kerela</option>
+                    <option value="guj">Gujrat</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="country">Country:</label></td>
+                <td align="left"><select id="country">
+                    <option value="select">Select Country</option>
+                    <option value="ind">India</option>
+                    <option value="chi">China</option>
+                    <option value="us">United State</option>
+                    <option value="uk">United Kingdome</option>
+                    <option value="sweden">Sweden</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="course">Courses :</label></td>
+                <td align="left"><select  id="course">
+                    <option value="select">Select Course</option>
+                    <option value="fswd">Full Stack Web Devlopment</option>
+                    <option value="fsds">Full Stack Data Science</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right">Currently Profession:</td>
+                <td align="left"><select>
+                    <option value="select">Select Profession</option>
+                    <option value="stud">Studing</option>
+                    <option value="working">Working</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="lindaccount">LinkedIn Profile</label></td>
+                <td align="left"><input type="text" id="lindaccount"></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><label for="question">Why do you want to learn these course?   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>                
+            </tr>
+            <tr>
+                <td id="ans" colspan="2" align="center"><input type="text" id="question " ></td>                
+            </tr>
+        </form>
+    </table>
+    
+</body>
+</html>
